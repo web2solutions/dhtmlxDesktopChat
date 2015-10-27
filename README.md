@@ -88,7 +88,7 @@ Or open the browser and reach the following address to see the application runni
 
 Now you are able to talk with the web instance previously opened on browser.
 
-## Starting application with node
+## Starting web application with node
 
 	 $ cd /Users/YourName/apps/dhtmlxDesktopChat/
 
