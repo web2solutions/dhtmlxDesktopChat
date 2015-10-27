@@ -3,9 +3,10 @@
 Just a simple desktop chat built using DHTMLX on client and Node.js (Express + ws) && Redis on back end
 
 
-[Imgur](http://i.imgur.com/2NLQCUL.png)
 
-[Imgur](http://i.imgur.com/xT9Vs1q.png)
+[![screen1](http://i.imgur.com/2NLQCUL.png)](http://i.imgur.com/2NLQCUL.png)
+[![screen2](http://i.imgur.com/xT9Vs1q.png)](http://i.imgur.com/xT9Vs1q.png)
+
 
 
 ## Installation
