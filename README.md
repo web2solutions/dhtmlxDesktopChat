@@ -3,10 +3,8 @@
 Just a simple desktop chat built using DHTMLX on client and Node.js (Express + ws) && Redis on back end
 
 
-
 [![screen1](http://i.imgur.com/2NLQCUL.png)](http://i.imgur.com/2NLQCUL.png)
 [![screen2](http://i.imgur.com/xT9Vs1q.png)](http://i.imgur.com/xT9Vs1q.png)
-
 
 
 ## Installation
@@ -16,6 +14,7 @@ List of softwares that you need to have already installed:
  - Redis (running on localhost)
  - Node.js
  - Grunt
+ - Electron
 
 Download this repository and uncompress to a given directory, lets assume: ***/Users/YourName/apps/dhtmlxNodeChat/***
 
