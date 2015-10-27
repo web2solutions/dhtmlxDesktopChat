@@ -1,0 +1,247 @@
+
+
+html,body{
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			width:100%;
+			height:100%;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			font-size:13px;
+			font-family:Arial;
+		}
+		
+		[draggable] {
+		  -moz-user-select: none;
+		  -khtml-user-select: none;
+		  -webkit-user-select: none;
+		  user-select: none;
+		  /* Required to make elements draggable in old WebKit */
+		  -khtml-user-drag: element;
+		  -webkit-user-drag: element;
+		}
+
+.span_field_selector{
+	font-size:13px;
+	color:#06C;
+	position:relative;
+	margin-top:-28px;
+	margin-left:40px;
+	text-shadow:1px 0px #ccc;
+}
+
+.span_field_selector:hover{
+	color:#096;
+}
+
+		#loggedin { 
+			display: none; 
+		}
+		
+		#header {
+			padding: 4px;
+			border-bottom: 1px solid #000;
+			background: #eee;
+		}
+		
+		#output {
+			padding: 4px;
+		}
+		
+		.card { 
+			display: block; 
+			padding: 2px;
+			cursor: pointer;
+		}
+		
+		#status_info, .status_info{
+			float:left;
+		}
+		#user_info, .user_info{
+			float:right;
+			width:180px;
+			height:20px;
+			padding-left:20px;
+			position:relative;
+			overflow:hidden;
+		}
+		
+		#user_info img, .user_info img{
+			position:absolute;
+			left:1px;
+			top:3px;
+		}
+		
+		#data_transfer_info, .data_transfer_info{
+			float:right;
+			width:180px;
+			height:20px;
+			padding-left:20px;
+			position:relative;
+			border-right:1px solid #ccc;
+			/*background-image:url(https://aai.myadoptionportal.com/modules/FormBuilder/icons/network-accept.png);*/
+			background-repeat:no-repeat;
+			background-position:1px 3px;
+			overflow:hidden;
+		}
+		
+		.expiration_info{
+			float:right;
+			width:150px;
+			height:20px;
+			padding-left:20px;
+			position:relative;
+			border-right:1px solid #ccc;
+			background-image:url(../icons/logout.png);
+			background-repeat:no-repeat;
+			background-position:1px 3px;
+			overflow:hidden;
+		}
+		
+		.expiration_info:hover{
+			
+			
+		}
+		
+		#data_transfer_info img, .data_transfer_info img{
+			position:absolute;
+			left:1px;
+			top:3px;
+		}
+		
+		
+		
+		#errors_info, .errors_info{
+			float:right;
+			width:150px;
+			height:20px;
+			border-left:1px solid #ccc;
+			border-right:1px solid #ccc;
+			margin-right:1px;
+			padding-left:20px;
+			background:url(https://aai.myadoptionportal.com/modules/FormBuilder/icons/system.png) no-repeat;
+			background-position:1px 3px;
+		}
+		
+		.board_info{
+			float:right;
+			width:126px;
+			height:20px;
+			border-right:1px solid #ccc;
+			border-left:1px solid #F5F5F5;
+			padding-left:24px;
+			margin-top:1px;
+			color:#666;
+			position:relative;
+		}
+		.board_info img{
+			position:absolute;
+			left:2px;
+			top:3px;
+		}
+		
+		
+		/* toggle-style checkbox */
+        /* enabled, not checked */
+        .dhxform_obj_dhx_skyblue div.dhxform_img.btn2state_0 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/toggle_off.png");
+            width: 42px;
+            height: 20px;
+        }
+        /* enabled, checked */
+        .dhxform_obj_dhx_skyblue div.dhxform_img.btn2state_1 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/toggle_on.png");
+            width: 42px;
+            height: 20px;
+        }
+        /* disabled, not checked */
+        .dhxform_obj_dhx_skyblue div.disabled div.dhxform_img.btn2state_0 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/toggle_off_dis.png");
+            width: 42px;
+            height: 20px;
+        }
+        /* disabled, checked */
+        .dhxform_obj_dhx_skyblue div.disabled div.dhxform_img.btn2state_1 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/toggle_on_dis.png");
+            width: 42px;
+            height: 20px;
+        }
+        
+        /* star-style checkbox */
+        /* enabled, not checked */
+        .dhxform_obj_dhx_skyblue div.dhxform_img.star_0 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/star_off.png");
+            width: 19px;
+            height: 19px;
+        }
+        /* enabled, checked */
+        .dhxform_obj_dhx_skyblue div.dhxform_img.star_1 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/star_on.png");
+            width: 19px;
+            height: 19px;
+        }
+        /* disabled, not checked */
+        .dhxform_obj_dhx_skyblue div.disabled div.dhxform_img.star_0 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/star_off_dis.png");
+            width: 19px;
+            height: 19px;
+        }
+        /* disabled, checked */
+        .dhxform_obj_dhx_skyblue div.disabled div.dhxform_img.star_1 {
+            background-image: url("https://aai.myadoptionportal.com/modules/codebase3.6/imgs/star_on_dis.png");
+            width: 19px;
+            height: 19px;
+        }
+        
+        /* common */
+        /* fix label align a bit */
+        .dhxform_obj_dhx_skyblue div.dhxform_item_label_right div.dhxform_label div.dhxform_label_nav_link {
+            padding-top: 2px;
+        }
+		
+		
+		.red_warning{
+			color:#C00;
+			/*font-weight:bold;*/
+			padding-left:20px;
+			position:relative;
+			float:left;
+		}
+		.red_warning img{
+			position: absolute;
+			left:2px;
+			top:2px;
+		}
+		
+		.normal_warning{
+			/*color:#C00;*/
+			/*font-weight:bold;*/
+			padding-right:20px;
+			position:relative;
+			float:right;
+		}
+		.normal_warning img{
+			position: absolute;
+			left:2px;
+			top:2px;
+		}
+		
+		
+		
+		.dhxform_obj_dhx_skyblue div.dhxform_base_nested {padding: 0px 0px 0px 0px; clear: both}
+ 		.dhxform_obj_dhx_skyblue.dhxform_rtl div.dhxform_base_nested {padding: 0px 0px 0px 0px}
+		
+		.dhx_header_cmenu{
+        background-color:#ffffff;
+        border:2px outset silver;
+        z-index:2;
+    }
+.dhx_header_cmenu_item{
+    white-space:nowrap;
+}   
+		

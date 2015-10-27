@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>dhtmlxChat</title>
+	<link rel="stylesheet" type="text/css" href="codebase4.4_std/dhtmlx.css">
+	<link rel="stylesheet" type="text/css" href="css/dhtmlxChat.css">
+	<script type="text/javascript" src="codebase4.4_std/dhtmlx.js"></script>
+	<script type="text/javascript" src="js/elapseMe.js"></script>
+	<script type="text/javascript" src="controller/dhtmlxChat.js"></script>
+	<script type="text/javascript" src="model/dhtmlxChat_Model.js"></script>
+    <script type="text/javascript" src="model/dhtmlxChat_Settings.js"></script>
+    <script type="text/javascript" src="js/dhx.js"></script>
+
+
+	<script type="text/javascript">
+		window.onload = function() {
+			dhtmlxChat.start({});
+		}
+	</script>
+
+</head>
+
+<body>
+	<audio id="new_user" src="audio/new_user.wav" preload="auto"></audio>
+	<audio id="new_message" src="audio/new_message.wav" preload="auto"></audio>
+	<audio id="disconnect" src="audio/disconnect.wav" preload="auto"></audio>
+	<audio id="error" src="audio/error.wav" preload="auto"></audio>
+</body>
+
+</html>
