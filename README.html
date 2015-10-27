@@ -1014,8 +1014,9 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>README</title></head><body><article class="markdown-body"><h1 id="dhtmlxnodechat"><a name="user-content-dhtmlxnodechat" href="#dhtmlxnodechat" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>dhtmlxNodeChat  <a href="http://badge.fury.io/js/dhtmlx-node-chat"><img alt="NPM version" src="https://badge.fury.io/js/dhtmlx-node-chat.png" /></a> <a href="https://travis-ci.org/web2solutions/dhtmlxNodeChat"><img alt="Build Status" src="https://travis-ci.org/web2solutions/dhtmlxNodeChat.svg?branch=master" /></a></h1>
-<p>Just a simple chat built using DHTMLX on client and Node.js (Express + ws) &amp;&amp; Redis on back end</p>
+</style><title>README</title></head><body><article class="markdown-body"><h1 id="dhtmlxdesktopchat"><a name="user-content-dhtmlxdesktopchat" href="#dhtmlxdesktopchat" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>dhtmlxDesktopChat  <a href="http://badge.fury.io/js/dhtmlx-node-chat"><img alt="NPM version" src="https://badge.fury.io/js/dhtmlx-desktop-chat.png" /></a> <a href="https://travis-ci.org/web2solutions/dhtmlxDesktopChat"><img alt="Build Status" src="https://travis-ci.org/web2solutions/dhtmlxDesktopChat.svg?branch=master" /></a></h1>
+<p>Just a simple desktop chat built using DHTMLX on client and Node.js (Express + ws) &amp;&amp; Redis on back end</p>
+<p><a href="http://i.imgur.com/2NLQCUL.png">Imgur</a></p>
 <h2 id="installation"><a name="user-content-installation" href="#installation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Installation</h2>
 <p>List of softwares that you need to have already installed:</p>
 <ul>
@@ -1025,12 +1026,12 @@ body .markdown-body
 </ul>
 <p>Download this repository and uncompress to a given directory, lets assume: <strong><em>/Users/YourName/apps/dhtmlxNodeChat/</em></strong></p>
 <p>Or, use <strong><em>npm</em></strong></p>
-<pre><code>npm i dhtmlx-node-chat
+<pre><code>npm i dhtmlx-desktop-chat
 </code></pre>
 <h2 id="command-line-testing"><a name="user-content-command-line-testing" href="#command-line-testing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Command line testing</h2>
 <h4 id="step-1"><a name="user-content-step-1" href="#step-1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Step 1</h4>
 <p>On terminal, navigate to the project directory:</p>
-<pre><code>$ cd /Users/YourName/apps/dhtmlxNodeChat/
+<pre><code>$ cd /Users/YourName/apps/dhtmlxDesktopChat/
 </code></pre>
 <p>Install grunt (if you don&rsquo;t have it installed):</p>
 <pre><code>$ npm install -g grunt-cli
@@ -1051,6 +1052,10 @@ $ npm install passport
 $ npm install passport-local
 
 $ npm install lodash
+
+$ npm install electron-prebuilt -g
+
+$ npm install electron-prebuilt --save-dev
 </code></pre>
 <h4 id="step-2"><a name="user-content-step-2" href="#step-2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Step 2</h4>
 <p>Now , type on terminal:</p>
@@ -1066,8 +1071,14 @@ $ npm install lodash
 <p>Or open the browser and reach the following address to see the application running:</p>
 <pre><code>http://localhost:4080/
 </code></pre>
+<h2 id="starting-desktop-application"><a name="user-content-starting-desktop-application" href="#starting-desktop-application" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Starting desktop application</h2>
+<pre><code>$ cd /Users/YourName/apps/dhtmlxDesktopChat/
+
+$ electron .
+</code></pre>
+<p>Now you are able to talk with the web instance previously opened on browser.</p>
 <h2 id="starting-application-with-node"><a name="user-content-starting-application-with-node" href="#starting-application-with-node" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Starting application with node</h2>
-<pre><code> $ cd /Users/YourName/apps/dhtmlxNodeChat/
+<pre><code> $ cd /Users/YourName/apps/dhtmlxDesktopChat/
 
  $ node app.js
 </code></pre></article></body></html>
