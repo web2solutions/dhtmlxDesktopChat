@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "0.12"
+services:
+  - redis-server
+before_install: npm install -g grunt-cli && npm install grunt-contrib-qunit --save-dev && npm install grunt-express --save-dev && npm install express --save && npm install --save ws && npm install express-ws && npm install redis && npm install passport && npm install passport-local && npm install lodash
+install: npm install
+#before_script: grunt build
